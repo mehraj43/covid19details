@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var x = "Mohammed Meraj Malik";
+        // var allows a vaiable to be declare again 
+        document.write(x)
+        let y = " Abdul Rehman"
+        // let doesnot allow a vaiable to be declare again 
+        document.write(y)
+        const z = " Ismail"
+        //const doesnt allow a variable value to change it keeps it constant
+        document.write(z);
+        document.write("<br>")
+        document.write(typeof(x))
+        let arr = ["HTML","CSS","JS"]
+        document.write("<br>")
+        document.write(typeof(arr))
+        const ob = {
+            position : 'cashier',
+            type : 'hourly',
+            isAvailable : true
+            /*showdetails(){
+                const accepting = this.isAvailable ? 'is accepting applications' : "is not accepting applications";
+
+                console.log('The ${this.position} position is ${this.type} and ${accepting}.');
+            }*/
+        };
+
+        const eys = Object.values(ob);
+        console.log(eys);
+
+
+        /*const coder = Object.create(ob);
+
+        coder.position = "MongoDB";
+        coder.showdetails();*/
+
+    </script>
+</body>
+
+</html>
